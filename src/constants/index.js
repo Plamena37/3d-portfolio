@@ -19,7 +19,6 @@ import {
   shapeshifter,
   funventure,
   threejs,
-  iba,
   ibagroup,
   primeholding,
   htmlcss,
@@ -43,20 +42,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Node Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -119,7 +110,7 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "IBA Bulgaria",
-    icon: iba,
+    icon: ibagroup,
     iconBg: "#383E56",
     date: "June 2022 - August 2022",
     points: [

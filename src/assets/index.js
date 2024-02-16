@@ -22,7 +22,6 @@ import mui from "./tech/mui.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import iba from "./company/iba.png";
 import ibagroup from "./company/ibagroup.png";
 import primeholding from "./company/primeholding.png";
 
@@ -55,7 +54,6 @@ export {
   mui,
   typescript,
   threejs,
-  iba,
   ibagroup,
   primeholding,
   htmlcss,
