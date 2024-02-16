@@ -22,7 +22,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt={logo} className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+          <p className="text-white xs:text-[18px] text-[16px] font-bold cursor-pointer flex">
             Plamena &nbsp;
             <span className="sm:block hidden">| React Developer</span>
           </p>
