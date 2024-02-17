@@ -229,4 +229,17 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, certificates, projects };
+const emailjsData = {
+  EMAILJS_SERVICE_ID: "service_h4eb8rn",
+  EMAILJS_TEMPLATE_ID: "template_uteig16",
+  EMAILJS_PUBLIC_KEY: "P6QLqZBe2rdxv9zUE",
+};
+
+export {
+  services,
+  technologies,
+  experiences,
+  certificates,
+  projects,
+  emailjsData,
+};

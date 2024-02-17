@@ -18,7 +18,7 @@ const CertificateCard = ({ index, name, credentials, company, image }) => {
       <div className="relative w-[250px] h-[350px]">
         <img src={image} alt={name} className="w-full h-full object-cover" />
 
-        <div className="absolute  inset-0 flex justify-end m-3 card-img_hover gap-1">
+        <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1">
           <div
             onClick={() => window.open(credentials, "_blank")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -52,7 +52,9 @@ const Certificates = () => {
           <h2 className={styles.sectionHeadText}>Certificates.</h2>
         </motion.div>
       </div>
-      <div
+
+      <motion.div
+        variants={fadeIn("up", "spring", 0.5, 0.75)}
         className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7 justify-center`}
       >
         <Swiper
@@ -68,7 +70,7 @@ const Certificates = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+      </motion.div>
     </div>
   );
 };
