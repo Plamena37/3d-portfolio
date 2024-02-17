@@ -76,10 +76,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "React Query",
-    icon: reactquery,
-  },
+  // {
+  //   name: "React Query",
+  //   icon: reactquery,
+  // },
   {
     name: "Redux Toolkit",
     icon: redux,
@@ -112,10 +112,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
+  {
+    name: "git",
+    icon: git,
+  },
 ];
 
 const experiences = [
