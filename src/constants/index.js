@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  reactquery,
   redux,
   tailwind,
   nodejs,
@@ -23,6 +24,9 @@ import {
   primeholding,
   htmlcss,
   js,
+  sass,
+  styledcomponents,
+  firebase,
 } from "../assets";
 
 export const navLinks = [
@@ -73,6 +77,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "React Query",
+    icon: reactquery,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -80,6 +88,14 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
+  {
+    name: "Sass",
+    icon: sass,
+  },
+  // {
+  //   name: "styled-components",
+  //   icon: styledcomponents,
+  // },
   {
     name: "Material UI",
     icon: mui,
@@ -96,14 +112,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
 ];
 
 const experiences = [
@@ -137,11 +149,13 @@ const certificates = [
   {
     name: "Programming Fundamentals with JavaScript",
     company: "SoftUni",
+    credentials: "https://softuni.bg/certificates/details/139188/bd7152f6",
     image: js,
   },
   {
     name: "HTML & CSS",
     company: "SoftUni",
+    credentials: "https://softuni.bg/certificates/details/127522/c7c1ceed",
     image: htmlcss,
   },
 ];
@@ -150,7 +164,7 @@ const projects = [
   {
     name: "The Wild Oasis",
     description:
-      "A classy app for hotel staff to handle bookings for their fancy cabins.",
+      "A classy app for hotel staff to handle bookings for their small boutique hotel with 8 luxurious wooden cabins.",
     tags: [
       {
         name: "react",
@@ -167,6 +181,7 @@ const projects = [
     ],
     image: wildoasis,
     source_code_link: "https://github.com/Plamena37/the-wild-oasis",
+    demo_link: "https://the-wild-oasis-six-eta.vercel.app/",
   },
   {
     name: "Shape Shifter",
@@ -188,6 +203,7 @@ const projects = [
     ],
     image: shapeshifter,
     source_code_link: "https://github.com/Plamena37/shape-shifter-frontend",
+    demo_link: "https://plamena-shape-shifter.netlify.app/",
   },
   {
     name: "Funventure",
@@ -209,6 +225,7 @@ const projects = [
     ],
     image: funventure,
     source_code_link: "https://github.com/Plamena37/Funventure",
+    demo_link: "https://funventure.netlify.app/",
   },
 ];
 

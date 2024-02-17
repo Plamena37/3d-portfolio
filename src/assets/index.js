@@ -4,6 +4,8 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import demo from "./demo.png";
+import open from "./open.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -16,17 +18,21 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import nestjs from "./tech/nestjs.png";
 import reactjs from "./tech/reactjs.png";
+import reactquery from "./tech/reactquery.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import mui from "./tech/mui.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import sass from "./tech/sass.png";
+import styledcomponents from "./tech/styledcomponents.png";
+import firebase from "./tech/firebase.png";
 
 import ibagroup from "./company/ibagroup.png";
 import primeholding from "./company/primeholding.png";
 
 import htmlcss from "./certificates/htmlcss.jpeg";
-import js from "./certificates/js.jpeg";
+import js from "./certificates/js.jpg";
 
 import wildoasis from "./wildoasis.png";
 import shapeshifter from "./shapeshifter.png";
@@ -39,6 +45,8 @@ export {
   mobile,
   web,
   github,
+  demo,
+  open,
   menu,
   close,
   css,
@@ -49,11 +57,15 @@ export {
   nodejs,
   nestjs,
   reactjs,
+  reactquery,
   redux,
   tailwind,
   mui,
   typescript,
   threejs,
+  sass,
+  styledcomponents,
+  firebase,
   ibagroup,
   primeholding,
   htmlcss,
