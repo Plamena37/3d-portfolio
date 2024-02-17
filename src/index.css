@@ -74,6 +74,29 @@
   -webkit-text-fill-color: transparent;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  background: #fff;
+  opacity: 0.5;
+}
+.swiper-pagination-bullet-active {
+  background: #804dee;
+  opacity: 1;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
