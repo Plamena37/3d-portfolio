@@ -235,6 +235,11 @@ const emailjsData = {
   EMAILJS_PUBLIC_KEY: "P6QLqZBe2rdxv9zUE",
 };
 
+const socialLinks = {
+  github: "https://github.com/Plamena37",
+  linkedin: "https://www.linkedin.com/in/plamena-ivanova-3b6782239/",
+};
+
 export {
   services,
   technologies,
@@ -242,4 +247,5 @@ export {
   certificates,
   projects,
   emailjsData,
+  socialLinks,
 };

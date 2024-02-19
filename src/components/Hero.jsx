@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { github, linkedin } from "../assets";
+import { socialLinks } from "../constants";
 
 const Hero = () => {
   return (
@@ -23,9 +23,34 @@ const Hero = () => {
             <br className="sm:block hidden" /> learning and a knack for
             problem-solving.
           </p>
+
+          <p className="flex gap-2 mt-2 z-10 absolute">
+            <div
+              onClick={() => window.open(socialLinks.github, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={github}
+                alt="source code"
+                className="w-[25px] h-[25px] object-contain"
+              />
+            </div>
+
+            <div
+              onClick={() => window.open(socialLinks.linkedin, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={linkedin}
+                alt="source code"
+                className="w-[22px] h-[22px] object-contain"
+              />
+            </div>
+          </p>
         </div>
       </div>
 
+      <br />
       <br />
       <br className="sm:block hidden" />
       <br className="sm:block hidden" />
