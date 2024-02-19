@@ -1,4 +1,5 @@
 // Framer Motion Animations
+// Slide in from top animation
 export const textVariant = (delay) => {
   return {
     hidden: {
@@ -17,6 +18,7 @@ export const textVariant = (delay) => {
   };
 };
 
+// Fade in animation with options
 export const fadeIn = (direction, type, delay, duration) => {
   return {
     hidden: {
@@ -38,25 +40,7 @@ export const fadeIn = (direction, type, delay, duration) => {
   };
 };
 
-export const zoomIn = (delay, duration) => {
-  return {
-    hidden: {
-      scale: 0,
-      opacity: 0,
-    },
-    show: {
-      scale: 1,
-      opacity: 1,
-      transition: {
-        type: "tween",
-        delay: delay,
-        duration: duration,
-        ease: "easeOut",
-      },
-    },
-  };
-};
-
+// Slide in animation with options
 export const slideIn = (direction, type, delay, duration) => {
   return {
     hidden: {
@@ -76,6 +60,7 @@ export const slideIn = (direction, type, delay, duration) => {
   };
 };
 
+// Container animation: the children inside that container will have a staggered animation
 export const staggerContainer = (staggerChildren, delayChildren) => {
   return {
     hidden: {},

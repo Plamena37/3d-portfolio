@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { staggerContainer } from "../utils/motion";
 
-const StarWrapper = (Component, idName) =>
+//The HOC uses Framer Motion to apply a staggered animation to the children of a section when it becomes visible
+const SectionWrapper = (Component, idName) =>
   function HOC() {
     return (
       <motion.section
@@ -22,4 +23,4 @@ const StarWrapper = (Component, idName) =>
     );
   };
 
-export default StarWrapper;
+export default SectionWrapper;

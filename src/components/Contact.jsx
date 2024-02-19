@@ -31,6 +31,7 @@ const Contact = () => {
     event.preventDefault();
     setLoading(true);
 
+    // Sending an email using the emailjs library
     emailjs
       .send(
         emailjsData.emailjs_service_id,

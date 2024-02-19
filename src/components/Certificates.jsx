@@ -12,6 +12,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { certificates } from "../constants";
 
+// CertificateCard component represents an individual certificate card
 const CertificateCard = ({ index, name, credentials, company, image }) => {
   return (
     <div className="relative flex flex-col justify-center items-center">

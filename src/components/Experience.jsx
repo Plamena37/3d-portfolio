@@ -11,6 +11,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+// Component for individual experience cards in the timeline
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement

@@ -20,7 +20,7 @@
 }
 
 .black-gradient {
-  background: #000000; /* fallback for old browsers */
+  background: #000000;
   background: -webkit-linear-gradient(to right, #434343, #000000);
   background: linear-gradient(to right, #434343, #000000);
 }
@@ -42,7 +42,7 @@
 }
 
 .orange-text-gradient {
-  background: #f12711; /* fallback for old browsers */
+  background: #f12711;
   background: -webkit-linear-gradient(to top, #f12711, #f5af19);
   background: linear-gradient(to top, #f12711, #f5af19);
   -webkit-background-clip: text;
@@ -50,7 +50,7 @@
 }
 
 .green-text-gradient {
-  background: #11998e; /* fallback for old browsers */
+  background: #11998e;
   background: -webkit-linear-gradient(to top, #11998e, #38ef7d);
   background: linear-gradient(to top, #11998e, #38ef7d);
   -webkit-background-clip: text;
@@ -58,8 +58,7 @@
 }
 
 .blue-text-gradient {
-  /* background: -webkit-linear-gradient(#eee, #333); */
-  background: #56ccf2; /* fallback for old browsers */
+  background: #56ccf2;
   background: -webkit-linear-gradient(to top, #2f80ed, #56ccf2);
   background: linear-gradient(to top, #2f80ed, #56ccf2);
   -webkit-background-clip: text;
@@ -67,31 +66,33 @@
 }
 
 .pink-text-gradient {
-  background: #ec008c; /* fallback for old browsers */
+  background: #ec008c;
   background: -webkit-linear-gradient(to top, #ec008c, #fc6767);
   background: linear-gradient(to top, #ec008c, #fc6767);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+/* swiper styles */
 .swiper {
   width: 100%;
   height: 100%;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-
   display: flex;
   justify-content: center;
   align-items: center;
+
+  text-align: center;
+  font-size: 18px;
 }
 
 .swiper-pagination-bullet {
   background: #fff;
   opacity: 0.5;
 }
+
 .swiper-pagination-bullet-active {
   background: #804dee;
   opacity: 1;

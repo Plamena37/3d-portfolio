@@ -10,10 +10,12 @@ import {
 
 import CanvasLoader from "../Loader";
 
+// Ball component renders a 3D ball using Three.js with a decal texture
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
   return (
+    // Create a floating icosahedron (ball) with ambient and directional light
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
@@ -37,7 +39,9 @@ const Ball = (props) => {
   );
 };
 
+// BallCanvas component renders a 3D canvas with a floating Ball
 const BallCanvas = ({ icon }) => {
+  // React-three-fiber Canvas for 3D rendering and suspense for fallback during initial loading
   return (
     <Canvas
       frameloop="always"
@@ -45,6 +49,7 @@ const BallCanvas = ({ icon }) => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
+        {/* OrbitControls for interactive camera control */}
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
       </Suspense>

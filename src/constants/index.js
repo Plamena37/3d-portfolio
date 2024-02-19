@@ -76,10 +76,6 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "React Query",
-  //   icon: reactquery,
-  // },
   {
     name: "Redux Toolkit",
     icon: redux,
@@ -92,10 +88,6 @@ const technologies = [
     name: "Sass",
     icon: sass,
   },
-  // {
-  //   name: "styled-components",
-  //   icon: styledcomponents,
-  // },
   {
     name: "Material UI",
     icon: mui,

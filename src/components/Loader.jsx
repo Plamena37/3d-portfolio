@@ -1,6 +1,8 @@
 import { Html, useProgress } from "@react-three/drei";
 
+// Loader component using @react-three/drei for 3D loading screen and Html overlay for displaying loading progress
 const Loader = () => {
+  // Getting progress from useProgress hook to get the loading progress
   const { progress } = useProgress();
 
   return (

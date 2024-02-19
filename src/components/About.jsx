@@ -7,6 +7,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { cv } from "../assets";
 
+// ServiceCard component represents an individual service card with Tilt effect
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
@@ -59,7 +60,7 @@ const About = () => {
         variants={fadeIn("", "", 0.3, 1)}
         download
         href={cv}
-        className="mt-4 py-2 px-4 rounded-md inline-block text-primary text-[17px] max-w-3xl leading-[30px] bg-white transition-all hover:bg-white-100 font-[500]"
+        className="mt-4 py-2 px-3 rounded-md inline-block text-primary text-[17px] max-w-3xl leading-[30px] bg-white transition-all hover:bg-white-100 font-[500]"
       >
         Download CV
       </motion.a>

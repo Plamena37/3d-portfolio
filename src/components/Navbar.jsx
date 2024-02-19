@@ -5,6 +5,7 @@ import { navLinks } from "../constants";
 import { styles } from "../styles";
 
 const Navbar = () => {
+  // State to track the active link and toggle the mobile menu
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
@@ -42,6 +43,7 @@ const Navbar = () => {
           ))}
         </ul>
 
+        {/* Mobile menu */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
