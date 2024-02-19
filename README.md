@@ -11,5 +11,6 @@
 - framer-motion
 - maath
 - swiper
+- tailwind css
 
 ## ⛐ How to run the code:
