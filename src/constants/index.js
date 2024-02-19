@@ -230,9 +230,9 @@ const projects = [
 ];
 
 const emailjsData = {
-  EMAILJS_SERVICE_ID: "service_h4eb8rn",
-  EMAILJS_TEMPLATE_ID: "template_uteig16",
-  EMAILJS_PUBLIC_KEY: "P6QLqZBe2rdxv9zUE",
+  emailjs_service_id: "service_h4eb8rn",
+  emailjs_template_id: "template_uteig16",
+  emailjs_public_key: "P6QLqZBe2rdxv9zUE",
 };
 
 const socialLinks = {

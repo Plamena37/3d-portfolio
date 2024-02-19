@@ -33,8 +33,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        emailjsData.EMAILJS_SERVICE_ID,
-        emailjsData.EMAILJS_TEMPLATE_ID,
+        emailjsData.emailjs_service_id,
+        emailjsData.emailjs_template_id,
         {
           from_name: form.name,
           to_name: "Plamena",
@@ -42,7 +42,7 @@ const Contact = () => {
           to_email: "plamivanova37@gmail.com",
           message: form.message,
         },
-        emailjsData.EMAILJS_PUBLIC_KEY
+        emailjsData.emailjs_public_key
       )
       .then(
         () => {
