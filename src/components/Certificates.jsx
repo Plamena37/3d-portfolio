@@ -66,7 +66,7 @@ const Certificates = () => {
           className="mySwiper"
         >
           {certificates.map((certificate, index) => (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <CertificateCard index={index} {...certificate} />
             </SwiperSlide>
           ))}
