@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { cv } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -47,12 +48,21 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         {" "}
-        I'm a tech enthusiast and quick learner with a passion for learning and
-        a decent level of knowledge in the front-end field. I have experience in
-        TypeScript, JavaScript, in frameworks like React, Node.js, NestJS and
+        I'm a tech enthusiast and a quick learner with 9 month professional
+        experience and over 2 years non-professional one. I am familiar with
+        TypeScript, JavaScript, with frameworks like React, Node.js, NestJS and
         libraries like Redux, Redux Toolkit, Sass, Tailwind CSS, MUI, styled-
         components and others...
       </motion.p>
+
+      <motion.a
+        variants={fadeIn("", "", 0.3, 1)}
+        download
+        href={cv}
+        className="mt-4 py-2 px-4 rounded-md inline-block text-primary text-[17px] max-w-3xl leading-[30px] bg-white transition-all hover:bg-white-100 font-[500]"
+      >
+        Download CV
+      </motion.a>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (

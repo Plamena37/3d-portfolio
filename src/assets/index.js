@@ -4,7 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
-import demo from "./demo.png";
+import linkedin from "./linkedin.png";
 import open from "./open.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -38,6 +38,8 @@ import wildoasis from "./wildoasis.png";
 import shapeshifter from "./shapeshifter.png";
 import funventure from "./funventure.png";
 
+import cv from "./pdf/Plamena_Ivanova_CV.pdf";
+
 export {
   logo,
   backend,
@@ -45,7 +47,7 @@ export {
   mobile,
   web,
   github,
-  demo,
+  linkedin,
   open,
   menu,
   close,
@@ -73,4 +75,5 @@ export {
   wildoasis,
   shapeshifter,
   funventure,
+  cv,
 };
