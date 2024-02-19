@@ -5,7 +5,7 @@
 
 ### 🔖 libraries:
 - react-three
-- react-tilt
+- react-parallax-tilt
 - react-vertical-timeline-component
 - emailjs
 - framer-motion
