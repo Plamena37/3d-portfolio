@@ -38,17 +38,19 @@ const ComputersCanvas = () => {
 
   // Check if we are on a mobile device using a media query
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
-    setIsMobile(mediaQuery.matches);
-
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
+    const checkIfMobile = () => {
+      setIsMobile(window.matchMedia("(max-width: 500px)").matches);
     };
 
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
+    checkIfMobile();
 
+    // Add event listener for changes to the media query
+    const mediaQueryList = window.matchMedia("(max-width: 500px)");
+    mediaQueryList.addEventListener("change", checkIfMobile);
+
+    // Cleanup the event listener on component unmount
     return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+      mediaQueryList.removeEventListener("change", checkIfMobile);
     };
   }, []);
 
