@@ -23,7 +23,7 @@ const Tech = () => {
     };
   }, []);
 
-  const numTechnologiesToRender = isMobile ? 7 : technologies.length;
+  const numTechnologiesToRender = isMobile ? 6 : technologies.length;
 
   // Slice the array to get only the first 7 number of technologies on a mobile devices
   const visibleTechnologies = technologies.slice(0, numTechnologiesToRender);
