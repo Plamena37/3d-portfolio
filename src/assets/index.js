@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import blob from "./blob.svg";
+import me from "./me.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -42,6 +44,8 @@ import cv from "./pdf/Plamena_Ivanova_CV.pdf";
 
 export {
   logo,
+  blob,
+  me,
   backend,
   creator,
   mobile,
