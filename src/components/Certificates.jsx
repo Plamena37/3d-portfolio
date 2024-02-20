@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { MdOpenInNew } from "react-icons/md";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -7,7 +8,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 import { styles } from "../styles";
-import { open } from "../assets";
+
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { certificates } from "../constants";
@@ -24,11 +25,7 @@ const CertificateCard = ({ index, name, credentials, company, image }) => {
             onClick={() => window.open(credentials, "_blank")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
-            <img
-              src={open}
-              alt="url credentials"
-              className="w-[40%] h-[40%] object-contain"
-            />
+            <MdOpenInNew className="w-[20px] h-[20px] object-contain" />
           </div>
         </div>
       </div>

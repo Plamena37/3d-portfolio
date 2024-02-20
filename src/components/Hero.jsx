@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { github, linkedin, me } from "../assets";
+import { me } from "../assets";
 import { socialLinks } from "../constants";
 import { useMobileMediaQuery } from "../utils";
 
@@ -70,22 +72,14 @@ const Hero = () => {
               onClick={() => window.open(socialLinks.github, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img
-                src={github}
-                alt="source code"
-                className="w-[25px] h-[25px] object-contain"
-              />
+              <FaGithub className="w-[20px] h-[20px] object-contain" />
             </div>
 
             <div
               onClick={() => window.open(socialLinks.linkedin, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img
-                src={linkedin}
-                alt="source code"
-                className="w-[22px] h-[22px] object-contain"
-              />
+              <FaLinkedinIn className="w-[20px] h-[20px] object-contain" />
             </div>
           </p>
         </div>

@@ -1,5 +1,6 @@
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -60,9 +61,10 @@ const About = () => {
         variants={fadeIn("", "", 0.3, 1)}
         download
         href={cv}
-        className="mt-4 py-2 px-3 rounded-md inline-block text-primary text-[17px] max-w-3xl leading-[30px] bg-white transition-all hover:bg-white-100 font-[500]"
+        className="mt-4 py-2 px-3 flex items-center justify-center gap-2 max-w-[11rem] rounded-md text-primary text-[17px] leading-[30px] bg-white transition-all hover:bg-white-100 font-[500]"
       >
-        Download CV
+        <span>Download CV</span>
+        <MdOutlineFileDownload className="w-[25px] h-[25px]" />
       </motion.a>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">

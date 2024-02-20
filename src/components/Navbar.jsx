@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { logo, menu, close } from "../assets";
+import { RiMenu3Line, RiCloseFill } from "react-icons/ri";
+
+import { logo } from "../assets";
 import { navLinks } from "../constants";
 import { styles } from "../styles";
 
@@ -45,12 +47,17 @@ const Navbar = () => {
 
         {/* Mobile menu */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
-          <img
-            src={toggle ? close : menu}
-            alt="menu"
-            className="w-[28px] h-[28px] object-contain cursor-pointer"
-            onClick={() => setToggle(!toggle)}
-          />
+          {toggle ? (
+            <RiCloseFill
+              className="w-[30px] h-[30px]"
+              onClick={() => setToggle(!toggle)}
+            />
+          ) : (
+            <RiMenu3Line
+              className="w-[28px] h-[28px]"
+              onClick={() => setToggle(!toggle)}
+            />
+          )}
 
           <div
             className={`${
