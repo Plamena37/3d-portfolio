@@ -5,14 +5,8 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
-import linkedin from "./linkedin.png";
-import open from "./open.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
 
 import css from "./tech/css.png";
-
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -36,9 +30,11 @@ import primeholding from "./company/primeholding.png";
 import htmlcss from "./certificates/htmlcss.jpeg";
 import js from "./certificates/js.jpg";
 
-import wildoasis from "./wildoasis.png";
-import shapeshifter from "./shapeshifter.png";
-import funventure from "./funventure.png";
+import wildoasis from "./projects/wildoasis.png";
+import shapeshifter from "./projects/shapeshifter.png";
+import shapeshifterBE from "./projects/shapeshifter-be.png";
+import funventure from "./projects/funventure.png";
+import evogym from "./projects/evogym.png";
 
 import cv from "./pdf/Plamena_Ivanova_CV.pdf";
 
@@ -50,11 +46,6 @@ export {
   creator,
   mobile,
   web,
-  github,
-  linkedin,
-  open,
-  menu,
-  close,
   css,
   git,
   html,
@@ -78,6 +69,8 @@ export {
   js,
   wildoasis,
   shapeshifter,
+  shapeshifterBE,
   funventure,
+  evogym,
   cv,
 };

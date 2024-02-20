@@ -18,7 +18,9 @@ import {
   mui,
   wildoasis,
   shapeshifter,
+  shapeshifterBE,
   funventure,
+  evogym,
   threejs,
   ibagroup,
   primeholding,
@@ -176,7 +178,7 @@ const projects = [
     demo_link: "https://the-wild-oasis-six-eta.vercel.app/",
   },
   {
-    name: "Shape Shifter",
+    name: "Shape Shifter FE",
     description:
       "Web application that allows users to monitor their progress on exercises and body measurements.",
     tags: [
@@ -185,7 +187,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
@@ -195,6 +197,28 @@ const projects = [
     ],
     image: shapeshifter,
     source_code_link: "https://github.com/Plamena37/shape-shifter-frontend",
+    demo_link: "https://plamena-shape-shifter.netlify.app/",
+  },
+  {
+    name: "Shape Shifter BE",
+    description:
+      "Web application that allows users to monitor their progress on exercises and body measurements.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb-atlas",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shapeshifterBE,
+    source_code_link: "https://github.com/Plamena37/shape-shifter-backend",
     demo_link: "https://plamena-shape-shifter.netlify.app/",
   },
   {
@@ -218,6 +242,28 @@ const projects = [
     image: funventure,
     source_code_link: "https://github.com/Plamena37/Funventure",
     demo_link: "https://funventure.netlify.app/",
+  },
+  {
+    name: "EvoGym",
+    description:
+      "A world class fitness equipment, trainers and classess to get you to your ultimate fitness goals with ease.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: evogym,
+    source_code_link: "https://github.com/Plamena37/Evo-Gym",
+    demo_link: "https://evogym-plamena.netlify.app/",
   },
 ];
 
