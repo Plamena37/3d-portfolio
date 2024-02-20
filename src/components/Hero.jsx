@@ -3,6 +3,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { github, linkedin, me } from "../assets";
 import { socialLinks } from "../constants";
+import { useMobileMediaQuery } from "../utils";
 
 // MobileBlob component- a blob with an image is shown on a mobile devices
 const MobileBlob = () => {
@@ -40,20 +41,8 @@ const Hero = () => {
   // State to track whether the user is on a mobile device
   const [isMobile, setIsMobile] = useState(false);
 
-  // Check if we are on a mobile device using a media query
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
-    setIsMobile(mediaQuery.matches);
-
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
-    };
-
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
-
-    return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
-    };
+    useMobileMediaQuery(setIsMobile);
   }, []);
 
   return (
