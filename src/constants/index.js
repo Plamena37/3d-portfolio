@@ -81,6 +81,10 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "git",
+    icon: git,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -103,10 +107,6 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "git",
-    icon: git,
   },
 ];
 
