@@ -5,6 +5,7 @@
 
 ### 🔖 libraries:
 - **react-three** – powerful library for creating engaging 3D visualizations and animations in react.
+- **react-icons** – react library for icon sets.
 - **react-parallax-tilt** – parallax and tilt effects, adding depth and interactivity to the user interface.
 - **react-vertical-timeline-component** – easily created vertical timelines to showcase chronological events or experiences in a visually appealing way.
 - **emailjs** – allows you to send emails directly from the client side.
