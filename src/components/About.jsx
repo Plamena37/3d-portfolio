@@ -50,11 +50,11 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         {" "}
-        I'm a tech enthusiast and a quick learner with 9 month professional
+        I'm a tech enthusiast and a quick learner with 7 months professional
         experience and over 2 years non-professional one. I am familiar with
-        TypeScript, JavaScript, with frameworks like React, Node.js, NestJS and
-        libraries like Redux, Redux Toolkit, Sass, Tailwind CSS, MUI, styled-
-        components and others...
+        TypeScript, JavaScript, React, Next.js, React Native, Node.js, NestJS,
+        along with a wide range of libraries I have actively worked with and
+        explored.
       </motion.p>
 
       <motion.a

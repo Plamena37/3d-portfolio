@@ -24,6 +24,7 @@ import {
   threejs,
   ibagroup,
   primeholding,
+  alphabite,
   htmlcss,
   js,
   sass,
@@ -54,6 +55,10 @@ const services = [
   {
     title: "React Developer",
     icon: web,
+  },
+  {
+    title: "Mobile Developer",
+    icon: mobile,
   },
 ];
 
@@ -114,14 +119,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer",
-    company_name: "IBA Bulgaria",
-    icon: ibagroup,
+    title: "Junior Developer",
+    company_name: "Alpha Bite",
+    icon: alphabite,
     iconBg: "#383E56",
-    date: "June 2022 - August 2022",
+    date: "May 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React, Angular and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Creating a dynamic and responsive interface with technologies such as next.js, typescript, shadcn ui",
+      "Building scalable server-side applications using nestjs and prisma.",
+      "I also work with React Native to expand my mobile development skills",
     ],
   },
   {
@@ -135,6 +141,17 @@ const experiences = [
       "Collaborating with fellow interns, mentors and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "IBA Bulgaria",
+    icon: ibagroup,
+    iconBg: "#383E56",
+    date: "June 2022 - August 2022",
+    points: [
+      "Developing and maintaining web applications using React, Angular and other related technologies.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
 ];
@@ -155,28 +172,28 @@ const certificates = [
 ];
 
 const projects = [
-  {
-    name: "The Wild Oasis",
-    description:
-      "A classy app for hotel staff to handle bookings for their small boutique hotel with 8 luxurious wooden cabins.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "styled-components",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: wildoasis,
-    source_code_link: "https://github.com/Plamena37/the-wild-oasis",
-    demo_link: "https://the-wild-oasis-six-eta.vercel.app/",
-  },
+  // {
+  //   name: "The Wild Oasis",
+  //   description:
+  //     "A classy app for hotel staff to handle bookings for their small boutique hotel with 8 luxurious wooden cabins.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "styled-components",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: wildoasis,
+  //   source_code_link: "https://github.com/Plamena37/the-wild-oasis",
+  //   demo_link: "https://the-wild-oasis-six-eta.vercel.app/",
+  // },
   {
     name: "Shape Shifter FE",
     description:
@@ -269,7 +286,7 @@ const projects = [
 
 const emailjsData = {
   emailjs_service_id: "service_h4eb8rn",
-  emailjs_template_id: "template_uteig16",
+  emailjs_template_id: "template_antfzfb",
   emailjs_public_key: "P6QLqZBe2rdxv9zUE",
 };
 

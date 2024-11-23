@@ -26,6 +26,7 @@ import firebase from "./tech/firebase.png";
 
 import ibagroup from "./company/ibagroup.png";
 import primeholding from "./company/primeholding.png";
+import alphabite from "./company/alphabite.png";
 
 import htmlcss from "./certificates/htmlcss.jpeg";
 import js from "./certificates/js.jpg";
@@ -65,6 +66,7 @@ export {
   firebase,
   ibagroup,
   primeholding,
+  alphabite,
   htmlcss,
   js,
   wildoasis,
