@@ -27,6 +27,7 @@ import firebase from "./tech/firebase.png";
 import ibagroup from "./company/ibagroup.png";
 import primeholding from "./company/primeholding.png";
 import alphabite from "./company/alphabite.png";
+import exadel from "./company/exadel.png";
 
 import htmlcss from "./certificates/htmlcss.jpeg";
 import js from "./certificates/js.jpg";
@@ -36,6 +37,7 @@ import shapeshifter from "./projects/shapeshifter.png";
 import shapeshifterBE from "./projects/shapeshifter-be.png";
 import funventure from "./projects/funventure.png";
 import evogym from "./projects/evogym.png";
+import wishlist from "./projects/wishlist.png";
 
 import cv from "./pdf/Plamena_Ivanova_CV.pdf";
 
@@ -67,6 +69,7 @@ export {
   ibagroup,
   primeholding,
   alphabite,
+  exadel,
   htmlcss,
   js,
   wildoasis,
@@ -74,5 +77,6 @@ export {
   shapeshifterBE,
   funventure,
   evogym,
+  wishlist,
   cv,
 };

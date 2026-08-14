@@ -50,11 +50,9 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         {" "}
-        I'm a tech enthusiast and a quick learner with 7 months professional
-        experience and over 2 years non-professional one. I am familiar with
-        TypeScript, JavaScript, React, Next.js, React Native, Node.js, NestJS,
-        along with a wide range of libraries I have actively worked with and
-        explored.
+        I'm a Frontend Engineer with 3+ years of hands-on experience, primarily
+        working with React and TypeScript. I enjoy building complex, reusable
+        interfaces and turning ideas into clean, user-focused solutions.
       </motion.p>
 
       <motion.a

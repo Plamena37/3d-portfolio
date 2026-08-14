@@ -19,12 +19,13 @@ import {
   wildoasis,
   shapeshifter,
   shapeshifterBE,
+  wishlist,
   funventure,
   evogym,
   threejs,
   ibagroup,
   primeholding,
-  alphabite,
+  alphabite,exadel,
   htmlcss,
   js,
   sass,
@@ -49,15 +50,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "JavaScript Developer",
+    title: "Frontend Engineering",
     icon: backend,
   },
   {
-    title: "React Developer",
+    title: "React & TypeScript",
     icon: web,
   },
   {
-    title: "Mobile Developer",
+    title: "UI & Architecture",
     icon: mobile,
   },
 ];
@@ -119,15 +120,49 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Front End Software Engineer",
+    company_name: "Anthill by Exadel",
+    icon: exadel,
+    iconBg: "#383E56",
+    date: "May 2026 - Present",
+    points: [
+      "Take ownership of features from technical spikes and story creation through implementation and delivery",
+      "Build complex and reusable tables with functionality such as drag-and-drop columns and resizable components",
+      "Write unit tests using Vitest and Testing Library",
+    ],
+  },
+  {
+    title: "Junior Front End Developer ",
+    company_name: "Anthill by Exadel",
+    icon: exadel,
+    iconBg: "#383E56",
+    date: "Feb 2025 - May 2026",
+    points: [
+      "Developed reusable React and TypeScript components and contributed to new product features",
+      "Worked with forms, validation, API integrations, state management and data-heavy interfaces",
+      "Collaborated with the team on feature implementation, testing, bug fixing and code quality",
+    ],
+  },
+  {
     title: "Junior Developer",
     company_name: "Alpha Bite",
     icon: alphabite,
     iconBg: "#383E56",
-    date: "May 2024 - Present",
+    date: "Aug 2024 - Jan 2025",
     points: [
       "Creating a dynamic and responsive interface with technologies such as next.js, typescript, shadcn ui",
       "Building scalable server-side applications using nestjs and prisma.",
       "I also work with React Native to expand my mobile development skills",
+    ],
+  },
+  {
+    title: "React Front-End Developer (Intern)",
+    company_name: "Alpha Bite",
+    icon: alphabite,
+    iconBg: "#383E56",
+    date: "May 2024 - Jul 2024",
+    points: [
+      "Completed a 3-month internship working on solo and group projects using Next.js and TypeScript",
     ],
   },
   {
@@ -194,6 +229,28 @@ const projects = [
   //   source_code_link: "https://github.com/Plamena37/the-wild-oasis",
   //   demo_link: "https://the-wild-oasis-six-eta.vercel.app/",
   // },
+  {
+    name: "Wishlist",
+    description:
+      "A real-time wishlist app for creating, sharing, and reserving gifts.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wishlist,
+    source_code_link: "https://github.com/Plamena37/wishlist-app",
+    demo_link: "https://wishlist-app-livid.vercel.app/",
+  },
   {
     name: "Shape Shifter FE",
     description:
